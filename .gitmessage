@@ -1,0 +1,23 @@
+# <type>[optional scope]: <description>
+#
+# [optional body]
+#
+# [optional footer(s)]
+#
+# Types disponibles:
+# feat: nouvelle fonctionnalité
+# fix: correction de bug
+# docs: documentation
+# style: formatage
+# refactor: refactoring
+# perf: performance
+# test: tests
+# chore: maintenance
+# ci: intégration continue
+# build: système de build
+# revert: annulation
+#
+# Exemples:
+# feat(auth): add login functionality
+# fix(api): resolve user data fetching issue
+# docs: update README with installation steps
