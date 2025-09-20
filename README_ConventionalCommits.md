@@ -1,29 +1,24 @@
-markdown# Configuration Conventional Commits
+Configuration Conventional Commits
 
 ## Installation automatique
 
 ### Linux/Mac:
-```bash
+bash
 chmod +x setup-conventional-commits.sh
 ./setup-conventional-commits.sh
 
 
-
-
 ### Windows:
-bashsetup-conventional-commits.bat
+bash
+setup-conventional-commits.bat
 
-Format des commits
+##  Format des commits 
 <type>[scope]: <description>
-
 [optional body]
-
 [optional footer]
 
 
-
-
-Types principaux:
+### Types principaux
 
 feat: nouvelle fonctionnalité
 fix: correction de bug
@@ -32,14 +27,14 @@ refactor: refactoring
 test: tests
 chore: maintenance
 
-Exemples:
+### Exemples:
 feat(auth): add JWT authentication
 fix(api): resolve null pointer exception
 docs: update installation guide
 refactor(user): simplify validation logic
 Les commits non conformes sont automatiquement rejetés.
 
-### 4. Ajout au package.json (création automatique)
+## Ajout au package.json (création automatique)
 
 Le script ajoutera automatiquement dans `package.json` :
 ```json
